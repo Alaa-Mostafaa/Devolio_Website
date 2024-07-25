@@ -275,6 +275,9 @@ background-attachment: fixed;
     border-radius: 100%;
 }
 
+.navbar{
+    position: fixed;
+}
 
 @media screen and (max-width: 600px) {
     #navbarSupportedContent{
@@ -283,7 +286,12 @@ background-attachment: fixed;
     }
 .navbar-collapse{
     visibility: hidden;
+    
 }  
+
+.navbar{
+    display: none;
+}
 
 }
 
