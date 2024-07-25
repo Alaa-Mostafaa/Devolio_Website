@@ -276,10 +276,15 @@ background-attachment: fixed;
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 600px) {
     #navbarSupportedContent{
         display: none;
-    visibility: hidden;
+        visibility: hidden;
     }
-  }
+.navbar-collapse{
+    visibility: hidden;
+}  
+
+}
+
 /*End of first section*/
