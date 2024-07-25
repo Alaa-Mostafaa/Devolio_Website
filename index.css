@@ -279,7 +279,7 @@ background-attachment: fixed;
     position: fixed;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #navbarSupportedContent{
         display: none;
         visibility: hidden;
