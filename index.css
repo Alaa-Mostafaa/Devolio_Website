@@ -275,11 +275,11 @@ background-attachment: fixed;
     border-radius: 100%;
 }
 
-@media screen and (min-width:400px) {
 
+@media screen and (min-width: 480px) {
     #navbarSupportedContent{
         display: none;
+    visibility: hidden;
     }
-    
-}
+  }
 /*End of first section*/
